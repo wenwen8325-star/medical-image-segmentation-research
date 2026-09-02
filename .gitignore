@@ -1,0 +1,84 @@
+# Datasets and local data
+/datasets/
+/data/
+
+# Training results, checkpoints, and generated artifacts
+/results/
+/checkpoints/
+/outputs/
+/runs/
+/artifacts/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+
+# Upstream LViT working tree (not embedded or submoduled yet)
+/code/LViT/
+
+# Environments, caches, and downloaded models
+/.conda/
+/.cache/
+/.codex/
+/.agents/
+/.venv/
+/venv/
+/env/
+**/.cache/
+huggingface/
+transformers_cache/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials*
+secrets*
+.netrc
+
+# Logs and job output
+*.log
+*.out
+*.err
+slurm-*.out
+wandb/
+tensorboard/
+lightning_logs/
+
+# Notebooks and editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Installers, downloads, and archives
+/Miniconda3-latest-Linux-x86_64.sh
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
